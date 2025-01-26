@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartwatch">
+
+    <uses-permission android:name="com.samsung.android.health.permission.READ_HEALTH_DATA" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+
+    <application
+        android:label="SmartWatch"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
